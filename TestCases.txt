@@ -1,0 +1,17 @@
+Q1 test cases
+input(4, 2, [1,2,3,4,5,6,7,8],[r,r,r,r,r,r,r,r], Sol).
+remove(4, 2, [1,2,3,4,5,6,7,8],[r,r,r,r,r,r,r,r]).
+
+input(3, 3, [1,2,3,4,5,6,7,8,9], [r, r, y, y,r,b,r,r,r], Sol).
+remove(3, 3, [1,2,3,4,5,6,7,8,9], [r, r, y, y,r,b,r,r,r]).
+
+input(4, 4, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], [y,y,y,r,b,y,b,y,b,b,b,y,b,b,b,y], Sol).
+remove(4, 4, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], [y,y,y,r,b,y,b,y,b,b,b,y,b,b,b,y]).
+
+
+Q2 test cases
+input(3, 3, [1,2,3,4,5,6,7,8,9], [red, red, yellow, yellow,red,blue,red,red,red],1, 9, Sol).
+remove(3, 3, [1,2,3,4,5,6,7,8,9], [red, red, yellow, yellow,red,blue,red,red,red]).
+
+input(3, 2, [1,2,3,4,5,6], [red, red, yellow, red,red,red],1, 5, Sol).
+remove(3, 2, [1,2,3,4,5,6], [red, red, yellow, red,red,red]).
